@@ -11408,7 +11408,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+  background-image: url("../assets/img/jesus-hands.png");
   background-position: center;
   background-size: cover;
 }
@@ -11620,5 +11620,56 @@ footer a:hover, footer a:active, footer a:focus {
   }
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 17rem;
+  }
+}
+
+.text-lead {
+  font-size: 60px !important;
+}
+
+.margin-b2{
+  background-color:#146c43;
+  border: none;
+  margin-left: 10px;
+  color: white !important;
+}
+
+@media (max-width: 600px) {
+  .margin-b2 {
+    margin-top: 15px;
+  }
+}
+
+.img-fluid{
+  z-index: 1;
+}
+
+.contact p{
+  font-size: 25px;
+}
+
+.contact p a{
+  text-decoration: none;
+  color: green;
+}
+
+.phone a{
+  color: black !important;
+}
+
+.info{
+  background-color: var(--bs-indigo);
+  color: white;
+  border-radius: 20px;
+}
+
+.lead{
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .masthead {
+    margin-top: 100px;
   }
 }
