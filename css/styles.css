@@ -11673,3 +11673,21 @@ footer a:hover, footer a:active, footer a:focus {
     margin-top: 100px;
   }
 }
+
+.border-radius{
+  border-radius: 15px;
+}
+
+.bg-light-blue{
+  background-color: #ADD8E6;
+}
+
+@media (max-width: 600px) {
+  .logos-head {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    margin-left: 90px;
+  }
+}
